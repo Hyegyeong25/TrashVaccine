@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>index.jsp</h1>
+    <div>커밋 1</div>
 </body>
 </html>

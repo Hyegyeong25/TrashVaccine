@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 public class indexController {
     @GetMapping(value = "index")
     public String indexPage() throws Exception {
-        log.info(this.getClass().getName() + ".indexPage Start !!");
-        log.info(this.getClass().getName() + ".indexPage End !!");
+        log.info(this.getClass().getName() + ".indexPage Start~!!");
+        log.info(this.getClass().getName() + ".indexPage End~!!");
         return "index";
     }
 }
