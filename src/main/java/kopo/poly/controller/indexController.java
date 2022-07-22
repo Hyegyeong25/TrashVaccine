@@ -12,6 +12,7 @@ public class indexController {
     @GetMapping(value = "index")
     public String indexPage() throws Exception {
         log.info(this.getClass().getName() + ".indexPage Start~!!");
+        log.info("hi");
         log.info(this.getClass().getName() + ".indexPage End~!!");
         return "index";
     }
